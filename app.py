@@ -30,6 +30,7 @@ def fetch_user_data(cokie,url):
     try: 
         with ProfileScraper(cookie=cokie) as scraper:
             profile = scraper.scrape(url=url)
+            print("scrapping")
             return profile.to_dict()
     except Exception as e:
        return e
