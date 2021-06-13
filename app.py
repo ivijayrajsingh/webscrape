@@ -9,7 +9,7 @@ from flask import Flask
 
 app = Flask(__name__)
 
-@app.route('/index')
+@app.route('/index/')
 def index():
     return "<h1>Heroku deployment</h1>"
 
