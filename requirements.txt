@@ -1,3 +1,4 @@
 Flask==2.0.1
+selenium
 git+git://github.com/austinoboyle/scrape-linkedin-selenium.git
 gunicorn
